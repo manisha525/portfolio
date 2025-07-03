@@ -59,6 +59,10 @@ export default function RootLayout({
         <link rel="icon" type="image/png" href="/favicon.ico" />
         <link rel="canonical" href="https://www.manishashah7.com" />
         <link rel="preload" as="image" href="/manisha.webp" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://www.google-analytics.com" />
+        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
         <script async src={`https://www.googletagmanager.com/gtag/js?id=G-S9MZSVRV38`} />
         <script
           dangerouslySetInnerHTML={{

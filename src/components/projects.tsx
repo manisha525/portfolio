@@ -73,7 +73,7 @@ export default function Projects() {
 
   return (
     <section
-      id="projects"
+      id="projects" aria-label="Projects Section" role="region"
       className="min-h-screen px-4 pt-24 pb-10 bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200"
     >
       <motion.h2
@@ -94,10 +94,11 @@ export default function Projects() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4 }}
+            aria-label={`Project: ${project.title}`}
           >
             <Image
               src={project.image}
-              alt={project.title}
+              alt={`Preview of project: ${project.title}`}
               width={600}
               height={400}
               className="w-full h-56 object-cover"
@@ -140,6 +141,7 @@ export default function Projects() {
       {projects.length > 6 && (
         <div className="max-w-6xl mx-auto flex justify-end mt-8">
           <button
+            aria-label={showAll ? "Collapse project list" : "Expand full project list"}
             onClick={() => setShowAll(!showAll)}
             className=" text-lg bg-gradient-to-r from-purple-500 to-cyan-500 text-white px-6 py-2 rounded-full font-medium shadow-md hover:scale-105 transition-transform"
           >

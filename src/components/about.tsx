@@ -91,8 +91,9 @@ export default function About() {
         <Image
           src="/manisha.webp"
           alt="Manisha Shah"
-          width={208}
-          height={208}
+          width={160}
+          height={173}
+          priority
           className="rounded-full object-cover w-full h-full relative z-10 shadow-md"
         />
       </motion.div>
