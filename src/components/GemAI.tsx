@@ -104,7 +104,7 @@ export default function GemAI() {
       {/* Floating Button */}
       <div
    //   className="fixed bottom-5 right-5 z-[100] cursor-pointer bg-white dark:bg-gray-800 border border-blue-300 w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:scale-105 transition"
-        className="fixed bottom-[60px] right-[25px] z-[100] cursor-pointer w-[55px] h-[55px] rounded-full border border-blue-400 bg-white dark:bg-gray-900 shadow-lg hover:scale-105 transition flex items-center justify-center"
+        className="fixed bottom-[20px] right-[20px] sm:bottom-[60px] sm:right-[25px] w-[50px] h-[50px] sm:w-[55px] sm:h-[55px] cursor-pointer rounded-full border border-blue-400 bg-white dark:bg-gray-900 shadow-lg hover:scale-105 transition flex items-center justify-center"
         onClick={() => setShow(!show)}
       >
         {show ? (
@@ -124,7 +124,7 @@ export default function GemAI() {
       {/* Chat Window */}
       {show && (
         <motion.div
-          className="fixed bottom-[120px] right-[60px] z-[100] w-[400px] h-[550px] bg-white shadow-xl rounded-lg border border-gray-300 flex flex-col overflow-hidden"
+          className="fixed z-[100] bottom-[100px] right-[10px] w-[90vw] max-w-[400px] h-[75vh] sm:w-[400px] sm:h-[550px] sm:right-[60px] bg-white shadow-xl rounded-lg border border-gray-300 flex flex-col overflow-hidden"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
         >

@@ -59,6 +59,19 @@ export default function RootLayout({
         <link rel="icon" type="image/png" href="/favicon.ico" />
         <link rel="canonical" href="https://www.manishashah7.com" />
         <link rel="preload" as="image" href="/manisha.webp" />
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=G-S9MZSVRV38`} />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-S9MZSVRV38', {
+                page_path: window.location.pathname,
+              });
+            `,
+          }}
+        />
 
         <script
           dangerouslySetInnerHTML={{
