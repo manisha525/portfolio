@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://localhost:3000',       // ✅ Use your deployed domain
+  siteUrl: 'https://www.manishashah7.com',       // ✅ Use your deployed domain
   generateRobotsTxt: true,                 // ✅ This generates robots.txt automatically
   generateIndexSitemap: false,             // optional if you only want a single sitemap
   changefreq: 'monthly',

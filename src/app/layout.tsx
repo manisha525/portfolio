@@ -27,11 +27,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Manisha Shah | AI Developer Portfolio",
     description: "Meet manisha — a passionate full-stack and AI/ML developer with industry experience and academic strength.",
-    url: "https://localhost:3000",
+    url: "https://www.manishashah7.com",
     siteName: "Manisha Shah",
     images: [
       {
-        url: "https://localhost:3000/manisha.webp",
+        url: "https://www.manishashah7.com/manisha.webp",
         width: 1200,
         height: 630,
         alt: "Manisha Shah",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Manisha Shah | Full-Stack & AI Developer",
     description: "Explore manisha's projects, resume, and GemAI agent.",
-    images: ["https://localhost:3000/manisha.webp"],
+    images: ["https://www.manishashah7.com/manisha.webp"],
   },
 };
 
@@ -57,7 +57,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning className="dark">
       <head>
         <link rel="icon" type="image/png" href="/favicon.ico" />
-        <link rel="canonical" href="https://localhost:3000" />
+        <link rel="canonical" href="https://www.manishashah7.com" />
         <link rel="preload" as="image" href="/manisha.webp" />
 
         <script
@@ -81,7 +81,7 @@ export default function RootLayout({
             "@context": "https://schema.org",
             "@type": "Person",
             name: "Manisha Shah",
-            url: "https://localhost:3000",
+            url: "https://www.manishashah7.com",
             sameAs: [
               "https://www.linkedin.com/in/shah-manisha/",
               "https://github.com/manisha525"
